@@ -106,22 +106,15 @@ form button {
 }
 
 @media screen and (max-width:520px) {
-    form {
-        width: 90%;
-        max-width: auto;
-        margin: auto;
-        height: 80px;
-        background: #457744;
-        display: flex;
-        align-items: center;
-        border-radius: 8px;
-    }
 
     h1 {
         text-align: center;
-        margin: 3rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     form button {
@@ -135,6 +128,7 @@ form button {
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
         cursor: pointer;
+        display: none;
     }
 
 }
