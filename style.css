@@ -90,7 +90,7 @@ form button {
 
 @media screen and (max-width:524px) {
     #search-result {
-        width: 80%;
+        width: 90%;
         margin: 100px auto 50px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
