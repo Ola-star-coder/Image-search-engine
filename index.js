@@ -39,7 +39,7 @@ searchForm.addEventListener('submit', (e) =>{
     e.preventDefault();
     page = 1;
     searchImages();
-    form.elements.query.value = '';
+   
 }) 
 
 showMoreBtn.addEventListener('click', () => {
